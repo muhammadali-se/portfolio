@@ -11,8 +11,7 @@ const Hero = () => {
   const roles = [
     "Software Engineer",
     "Front-End Developer", 
-    "Competitive Programmer",
-    "MERN Stack Explorer"
+    "Competitive Programmer"
   ];
   
   useEffect(() => {
@@ -91,13 +90,13 @@ const Hero = () => {
           {/* Description */}
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
             Passionate about creating beautiful, functional, and user-friendly applications. 
-            Specializing in MERN stack development and competitive programming with a focus on 
-            clean code and innovative solutions.
+            Specializing in Front-End Development and Competitive Programming with a focus on 
+            clean code and innovative solutions. Exploring MERN Stack Development.
           </p>
           
           {/* Tags */}
           <div className="flex flex-wrap justify-center gap-3 mb-10">
-            {['Frontend Developer', 'MERN Stack', 'Competitive Programmer', 'Problem Solver'].map((tag, index) => (
+            {['Frontend Developer', 'MERN Stack', 'Competitive Programmer', 'C++, JS & DSA'].map((tag, index) => (
               <span 
                 key={tag}
                 className="px-4 py-2 bg-primary-muted border border-primary/30 rounded-full text-primary text-sm font-medium animate-fade-in"
