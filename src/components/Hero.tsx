@@ -5,21 +5,41 @@ import heroImage from '@/assets/hero-bg.jpg';
 
 const Hero = () => {
   const [displayedText, setDisplayedText] = useState('');
-  const fullText = "Software Engineer & Full-Stack Developer";
+  const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+  
+  const roles = [
+    "Software Engineer",
+    "Front-End Developer", 
+    "Competitive Programmer",
+    "MERN Stack Explorer"
+  ];
   
   useEffect(() => {
-    let index = 0;
-    const timer = setInterval(() => {
-      if (index < fullText.length) {
-        setDisplayedText(fullText.slice(0, index + 1));
-        index++;
+    const currentRole = roles[currentRoleIndex];
+    
+    const timer = setTimeout(() => {
+      if (!isDeleting) {
+        // Typing
+        if (displayedText.length < currentRole.length) {
+          setDisplayedText(currentRole.slice(0, displayedText.length + 1));
+        } else {
+          // Pause before deleting
+          setTimeout(() => setIsDeleting(true), 2000);
+        }
       } else {
-        clearInterval(timer);
+        // Deleting
+        if (displayedText.length > 0) {
+          setDisplayedText(displayedText.slice(0, -1));
+        } else {
+          setIsDeleting(false);
+          setCurrentRoleIndex((prev) => (prev + 1) % roles.length);
+        }
       }
-    }, 100);
+    }, isDeleting ? 50 : 100);
 
-    return () => clearInterval(timer);
-  }, []);
+    return () => clearTimeout(timer);
+  }, [displayedText, currentRoleIndex, isDeleting, roles]);
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
