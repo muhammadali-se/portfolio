@@ -78,7 +78,7 @@ const Hero = () => {
           
           {/* Name */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="text-gradient">Your Name</span>
+            <span className="text-gradient">Muhammad Ali</span>
           </h1>
           
           {/* Animated Title */}
