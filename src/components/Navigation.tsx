@@ -40,7 +40,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="text-xl font-bold text-gradient cursor-pointer" 
                onClick={() => scrollToSection('home')}>
-            Muhammad Ali
+            <Muhammad Ali/>
           </div>
 
           {/* Desktop Navigation */}
