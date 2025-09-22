@@ -48,7 +48,7 @@ const Hero = () => {
 
   const downloadResume = () => {
     // In a real implementation, you would link to your actual resume file
-    window.open('/resume.pdf', '_blank');
+    window.open('../assets/Muhammad_Ali_Resume.pdf', '_blank');
   };
 
   return (
