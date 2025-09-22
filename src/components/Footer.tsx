@@ -32,22 +32,17 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: Github,
-      href: 'https://github.com/yourusername',
+      href: 'https://github.com/muhammadali-se',
       label: 'GitHub'
     },
     {
       icon: Linkedin,
-      href: 'https://linkedin.com/in/yourusername',
+      href: 'https://linkedin.com/in/muhammadali-se',
       label: 'LinkedIn'
     },
     {
-      icon: Twitter,
-      href: 'https://twitter.com/yourusername',
-      label: 'Twitter'
-    },
-    {
       icon: Mail,
-      href: 'mailto:your.email@example.com',
+      href: 'mailto:muhammadalibd121@email.com',
       label: 'Email'
     }
   ];
@@ -62,11 +57,11 @@ const Footer = () => {
             <div className="md:col-span-2">
               <div className="text-2xl font-bold text-gradient mb-4 flex items-center gap-2">
                 <Code2 className="w-6 h-6" />
-                &lt;Developer/&gt;
+                Muhammad Ali
               </div>
               <p className="text-muted-foreground text-lg mb-6 max-w-md">
-                Software Engineer passionate about creating beautiful, functional, and 
-                user-friendly applications. Always learning, always building.
+                Self-taught Software Engineer | Frontend Developer | Problem-Solving Enthusiast. 
+                Passionate about creating responsive websites and solving complex algorithmic challenges.
               </p>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Coffee className="w-4 h-4" />
@@ -134,7 +129,7 @@ const Footer = () => {
         <div className="py-6 flex flex-col md:flex-row justify-between items-center gap-4">
           {/* Copyright */}
           <div className="flex items-center gap-2 text-muted-foreground">
-            <span>© {new Date().getFullYear()} Your Name. Made with</span>
+            <span>© {new Date().getFullYear()} Muhammad Ali. Made with</span>
             <Heart className="w-4 h-4 text-red-500 animate-pulse" />
             <span>and lots of</span>
             <Coffee className="w-4 h-4 text-amber-500" />

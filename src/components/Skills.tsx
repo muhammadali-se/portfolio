@@ -20,72 +20,56 @@ const Skills = () => {
 
   const skillCategories = [
     { id: 'frontend', label: 'Frontend', icon: Globe, color: 'text-blue-500' },
-    { id: 'backend', label: 'Backend', icon: Database, color: 'text-green-500' },
-    { id: 'mobile', label: 'Mobile', icon: Smartphone, color: 'text-purple-500' },
-    { id: 'devops', label: 'DevOps', icon: Cloud, color: 'text-orange-500' },
-    { id: 'tools', label: 'Tools', icon: Code2, color: 'text-red-500' },
-    { id: 'competitive', label: 'Competitive Programming', icon: Zap, color: 'text-yellow-500' },
+    { id: 'programming', label: 'Programming', icon: Code2, color: 'text-green-500' },
+    { id: 'tools', label: 'Tools & Platforms', icon: Database, color: 'text-purple-500' },
+    { id: 'competitive', label: 'Problem Solving', icon: Zap, color: 'text-yellow-500' },
   ];
 
   const skills = {
     frontend: [
-      { name: 'React.js', level: 95, category: 'Framework' },
-      { name: 'TypeScript', level: 90, category: 'Language' },
-      { name: 'Next.js', level: 85, category: 'Framework' },
+      { name: 'React.js', level: 90, category: 'Framework' },
+      { name: 'JavaScript (ES6+)', level: 88, category: 'Language' },
+      { name: 'HTML5', level: 95, category: 'Core' },
+      { name: 'CSS3', level: 90, category: 'Core' },
       { name: 'Tailwind CSS', level: 92, category: 'Styling' },
-      { name: 'Vue.js', level: 75, category: 'Framework' },
-      { name: 'HTML5/CSS3', level: 95, category: 'Core' },
-      { name: 'JavaScript ES6+', level: 93, category: 'Language' },
-      { name: 'Sass/SCSS', level: 88, category: 'Styling' },
+      { name: 'Bootstrap', level: 85, category: 'Styling' },
+      { name: 'TypeScript', level: 80, category: 'Language' },
+      { name: 'Responsive Design', level: 95, category: 'Design' },
     ],
-    backend: [
-      { name: 'Node.js', level: 92, category: 'Runtime' },
-      { name: 'Express.js', level: 90, category: 'Framework' },
-      { name: 'MongoDB', level: 88, category: 'Database' },
-      { name: 'PostgreSQL', level: 85, category: 'Database' },
-      { name: 'GraphQL', level: 80, category: 'API' },
-      { name: 'RESTful APIs', level: 95, category: 'API' },
-      { name: 'Python', level: 83, category: 'Language' },
-      { name: 'Redis', level: 78, category: 'Cache' },
-    ],
-    mobile: [
-      { name: 'React Native', level: 85, category: 'Framework' },
-      { name: 'Expo', level: 82, category: 'Platform' },
-      { name: 'Flutter', level: 70, category: 'Framework' },
-      { name: 'PWA Development', level: 88, category: 'Web' },
-      { name: 'Mobile UI/UX', level: 85, category: 'Design' },
-    ],
-    devops: [
-      { name: 'Docker', level: 85, category: 'Containerization' },
-      { name: 'AWS', level: 80, category: 'Cloud' },
-      { name: 'CI/CD', level: 83, category: 'Automation' },
-      { name: 'Nginx', level: 75, category: 'Server' },
-      { name: 'Linux', level: 88, category: 'OS' },
-      { name: 'Kubernetes', level: 70, category: 'Orchestration' },
-    ],
-    tools: [
-      { name: 'Git/GitHub', level: 95, category: 'Version Control' },
-      { name: 'VS Code', level: 98, category: 'Editor' },
-      { name: 'Figma', level: 85, category: 'Design' },
-      { name: 'Postman', level: 90, category: 'API Testing' },
-      { name: 'Jest/Testing', level: 88, category: 'Testing' },
-      { name: 'Webpack', level: 82, category: 'Build Tool' },
-    ],
-    competitive: [
+    programming: [
+      { name: 'C++', level: 95, category: 'Language' },
+      { name: 'JavaScript (ES6+)', level: 88, category: 'Language' },
+      { name: 'TypeScript', level: 80, category: 'Language' },
       { name: 'Data Structures', level: 95, category: 'Core' },
       { name: 'Algorithms', level: 93, category: 'Core' },
-      { name: 'Dynamic Programming', level: 90, category: 'Advanced' },
-      { name: 'Graph Theory', level: 88, category: 'Advanced' },
-      { name: 'Mathematical Algorithms', level: 85, category: 'Math' },
-      { name: 'String Algorithms', level: 87, category: 'Advanced' },
+      { name: 'Problem Solving', level: 98, category: 'Core' },
+    ],
+    tools: [
+      { name: 'VSCode', level: 98, category: 'Editor' },
+      { name: 'Cursor', level: 95, category: 'Editor' },
+      { name: 'Git/GitHub', level: 90, category: 'Version Control' },
+      { name: 'Netlify', level: 85, category: 'Deployment' },
+      { name: 'Vercel', level: 85, category: 'Deployment' },
+      { name: 'Firebase', level: 75, category: 'Backend' },
+      { name: 'Supabase', level: 75, category: 'Backend' },
+    ],
+    competitive: [
+      { name: 'Dynamic Programming', level: 95, category: 'Advanced' },
+      { name: 'Graph Algorithms', level: 92, category: 'Advanced' },
+      { name: 'Data Structures', level: 90, category: 'Core' },
+      { name: 'Greedy Algorithms', level: 88, category: 'Intermediate' },
+      { name: 'String Algorithms', level: 85, category: 'Advanced' },
+      { name: 'Number Theory', level: 82, category: 'Math' },
+      { name: 'Geometry', level: 78, category: 'Math' },
+      { name: 'Game Theory', level: 75, category: 'Advanced' },
     ],
   };
 
   const achievements = [
-    { icon: Shield, title: 'CodeChef 5-Star', description: 'Max Rating: 2156' },
-    { icon: Zap, title: 'Codeforces Expert', description: 'Max Rating: 1678' },
-    { icon: Cpu, title: 'ICPC Regionalist', description: '2022, 2023' },
-    { icon: GitBranch, title: 'Open Source', description: '100+ Contributions' },
+    { icon: Shield, title: 'CodeChef 2-Star', description: 'Max Rating: 1400+' },
+    { icon: Zap, title: 'Codeforces Pupil', description: 'Max Rating: 1200+' },
+    { icon: Cpu, title: 'HackerRank Certified', description: 'JavaScript (Basic)' },
+    { icon: GitBranch, title: '20+ Projects', description: 'Personal + Freelance' },
   ];
 
   const getProgressColor = (level: number) => {
@@ -182,13 +166,13 @@ const Skills = () => {
               Continuous Learning Philosophy
             </h3>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              Technology evolves rapidly, and so do I. I'm constantly exploring new frameworks, 
-              tools, and methodologies to stay at the forefront of software development. 
-              My journey in competitive programming has sharpened my problem-solving abilities, 
-              while my full-stack experience ensures I can bring ideas to life end-to-end.
+              As a passionate self-taught programmer, I believe in continuous learning and practical application. 
+              My journey from solving coding problems to building real-world applications has taught me that 
+              every challenge is an opportunity to grow. With 700+ problems solved and 20+ projects completed, 
+              I'm always eager to take on new challenges and contribute to meaningful projects.
             </p>
             <div className="flex flex-wrap justify-center gap-3 mt-6">
-              {['Problem Solver', 'Quick Learner', 'Team Player', 'Innovation Focused'].map((trait) => (
+              {['Quick Learner', 'Collaborative', 'Problem Solver', 'Self-Motivated'].map((trait) => (
                 <Badge key={trait} variant="outline" className="px-4 py-2">
                   {trait}
                 </Badge>

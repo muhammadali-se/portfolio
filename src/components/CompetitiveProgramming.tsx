@@ -119,28 +119,40 @@ const CompetitiveProgramming = () => {
 
   const recentContests = [
     {
-      contest: 'Codeforces Round #915',
-      rank: 245,
-      participants: 15420,
-      ratingChange: +42,
-      problems: 4,
-      date: '2023-12-15'
-    },
-    {
-      contest: 'CodeChef December Long',
-      rank: 89,
-      participants: 8230,
-      ratingChange: +28,
-      problems: 5,
-      date: '2023-12-10'
-    },
-    {
-      contest: 'AtCoder Beginner Contest 332',
-      rank: 156,
-      participants: 12450,
-      ratingChange: +15,
+      contest: 'Codeforces Round #918 (Div. 4)',
+      rank: 1205,
+      participants: 18420,
+      ratingChange: +35,
       problems: 6,
-      date: '2023-12-02'
+      date: '2024-01-15',
+      platform: 'Codeforces'
+    },
+    {
+      contest: 'CodeChef January Cook-Off',
+      rank: 458,
+      participants: 8930,
+      ratingChange: +22,
+      problems: 5,
+      date: '2024-01-08',
+      platform: 'CodeChef'
+    },
+    {
+      contest: 'HackerRank Weekly Challenge',
+      rank: 89,
+      participants: 2450,
+      ratingChange: +18,
+      problems: 4,
+      date: '2024-01-02',
+      platform: 'HackerRank'
+    },
+    {
+      contest: 'LeetCode Weekly Contest 380',
+      rank: 2156,
+      participants: 15680,
+      ratingChange: +12,
+      problems: 4,
+      date: '2023-12-28',
+      platform: 'LeetCode'
     }
   ];
 
