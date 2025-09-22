@@ -75,21 +75,21 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'your.email@example.com',
-      href: 'mailto:your.email@example.com',
+      value: 'muhammadalibd121@email.com',
+      href: 'mailto:muhammadalibd121@email.com',
       description: 'Best way to reach me'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567',
-      description: 'Available 9 AM - 6 PM EST'
+      value: '+880-XXXX-XXXX',
+      href: 'tel:+880XXXXXXXX',
+      description: 'Available for calls'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Sylhet, Bangladesh',
       href: null,
       description: 'Open to remote work'
     },
@@ -106,20 +106,20 @@ const Contact = () => {
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com/yourusername',
+      href: 'https://github.com/muhammadali-se',
       color: 'hover:text-gray-400'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in/yourusername',
+      href: 'https://linkedin.com/in/muhammadali-se',
       color: 'hover:text-blue-500'
     },
     {
-      icon: Twitter,
-      label: 'Twitter',
-      href: 'https://twitter.com/yourusername',
-      color: 'hover:text-blue-400'
+      icon: ExternalLink,
+      label: 'Portfolio',
+      href: 'https://muhammadali-se.netlify.app',
+      color: 'hover:text-primary'
     }
   ];
 

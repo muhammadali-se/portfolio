@@ -15,90 +15,107 @@ const About = () => {
 
   const journey = [
     {
-      year: '2023',
-      title: 'Senior Software Engineer',
-      company: 'Tech Company',
-      description: 'Leading full-stack development projects and mentoring junior developers.',
-      technologies: ['React', 'Node.js', 'TypeScript', 'AWS']
+      year: '2024-Present',
+      title: 'Competitive Programmer',
+      company: 'Various Platforms',
+      description: 'Solved 700+ coding problems across Codeforces, CodeChef, HackerRank and others. Participated in 100+ contests.',
+      technologies: ['C++', 'Data Structures', 'Algorithms', 'Problem Solving']
     },
     {
-      year: '2022',
-      title: 'Full-Stack Developer',
-      company: 'Startup Inc.',
-      description: 'Built scalable web applications and improved system performance by 40%.',
-      technologies: ['MERN Stack', 'Docker', 'MongoDB']
-    },
-    {
-      year: '2021',
+      year: '2023-Present',
       title: 'Frontend Developer',
-      company: 'Digital Agency',
-      description: 'Created responsive and interactive user interfaces for various clients.',
-      technologies: ['React', 'Vue.js', 'Tailwind CSS']
+      company: 'Freelance Projects',
+      description: 'Delivered responsive websites for local and international clients. Translated Figma designs into pixel-perfect components.',
+      technologies: ['React.js', 'JavaScript', 'Tailwind CSS', 'HTML5/CSS3']
+    },
+    {
+      year: '2023',
+      title: 'CSE Fundamentals',
+      company: 'Phitron',
+      description: 'Completed foundational DSA & Competitive Programming certification. Built strong problem-solving foundation.',
+      technologies: ['C++', 'DSA', 'Competitive Programming']
     }
   ];
 
   const education = [
     {
-      degree: 'Master of Computer Science',
-      school: 'University Name',
-      year: '2021-2023',
-      gpa: '3.8/4.0',
-      relevant: ['Data Structures', 'Algorithms', 'Software Engineering', 'Database Systems']
+      degree: 'AI/ML Expert Course',
+      school: 'Phitron',
+      year: '2024 - Ongoing',
+      gpa: 'In Progress',
+      relevant: ['Machine Learning', 'Artificial Intelligence', 'Python', 'Data Science']
     },
     {
-      degree: 'Bachelor of Computer Engineering',
-      school: 'College Name',
-      year: '2017-2021',
-      gpa: '3.7/4.0',
-      relevant: ['Programming Fundamentals', 'Web Development', 'Operating Systems', 'Networks']
+      degree: 'CSE Fundamentals Certification',
+      school: 'Phitron',
+      year: '2023',
+      gpa: 'Completed ✅',
+      relevant: ['Data Structures', 'Algorithms', 'Competitive Programming', 'C++']
+    },
+    {
+      degree: 'Secondary School Certificate (SSC)',
+      school: 'High School',
+      year: 'Expected April 2026',
+      gpa: 'In Progress',
+      relevant: ['Mathematics', 'Science', 'Computer Studies', 'English']
     }
   ];
 
   const experience = [
     {
-      position: 'Senior Software Engineer',
-      company: 'Tech Corporation',
+      position: 'Frontend Developer',
+      company: 'Freelance Projects',
       period: '2023 - Present',
-      location: 'San Francisco, CA',
+      location: 'Remote',
       highlights: [
-        'Led development of microservices architecture serving 1M+ users',
-        'Implemented CI/CD pipelines reducing deployment time by 60%',
-        'Mentored team of 5 junior developers'
+        'Delivered responsive websites for local and international clients',
+        'Translated Figma designs into pixel-perfect HTML/CSS, TailwindCSS, and React components',
+        'Focused on UI/UX improvements, accessibility, and performance optimization'
       ]
     },
     {
-      position: 'Full-Stack Developer',
-      company: 'Innovation Labs',
-      period: '2022 - 2023',
+      position: 'Competitive Programmer',
+      company: 'Various Platforms',
+      period: '2024 - Present',
       location: 'Remote',
       highlights: [
-        'Built real-time collaboration platform using WebSocket',
-        'Optimized database queries improving performance by 45%',
-        'Developed RESTful APIs serving mobile and web clients'
+        'Solved 700+ coding problems across Codeforces, CodeChef, HackerRank, and others',
+        'Participated in 100+ contests, strengthening problem-solving and algorithmic skills',
+        'Achieved Pupil (1200+) rank on Codeforces and 2★ (1400+) rating on CodeChef'
       ]
     }
   ];
 
   const achievements = [
     {
-      title: 'CodeChef 5-Star Programmer',
-      description: 'Achieved highest rating tier in competitive programming',
-      year: '2023'
+      title: 'CodeChef 2★ Programmer',
+      description: 'Achieved 2★ (1400+) rating on CodeChef competitive programming platform',
+      year: '2024'
     },
     {
-      title: 'Hackathon Winner',
-      description: 'First place in National Tech Innovation Challenge',
-      year: '2022'
+      title: 'Codeforces Pupil Rank',
+      description: 'Attained Pupil rank (1200+) on Codeforces through consistent problem solving',
+      year: '2024'
+    },
+    {
+      title: '700+ Problems Solved',
+      description: 'Solved 700+ coding problems across multiple competitive programming platforms',
+      year: '2024'
     },
     {
       title: 'Open Source Contributor',
-      description: 'Active contributor to popular React and Node.js libraries',
-      year: '2021-Present'
+      description: 'Contributed to Array Method Visualizer by improving UI, accessibility, SEO, and Lighthouse score',
+      year: '2024'
     },
     {
-      title: 'Tech Conference Speaker',
-      description: 'Presented on "Modern React Patterns" at DevCon 2023',
-      year: '2023'
+      title: 'JavaScript Certification',
+      description: 'Earned JavaScript (Basic) Certification from HackerRank',
+      year: '2024'
+    },
+    {
+      title: '20+ Projects Completed',
+      description: 'Successfully delivered 20+ personal and freelance projects with modern technologies',
+      year: '2023-Present'
     }
   ];
 
@@ -225,18 +242,18 @@ const About = () => {
             About <span className="text-gradient">Me</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Passionate software engineer with a love for creating innovative solutions 
-            and pushing the boundaries of what's possible with code.
+            Self-taught programmer from Sylhet, Bangladesh with a passion for creating innovative solutions 
+            and pushing the boundaries of what's possible with code and competitive programming.
           </p>
         </div>
 
         {/* Quick Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
           {[
-            { label: 'Years Experience', value: '3+' },
-            { label: 'Projects Completed', value: '50+' },
+            { label: 'Projects Completed', value: '20+' },
+            { label: 'Problems Solved', value: '700+' },
+            { label: 'Contests Participated', value: '100+' },
             { label: 'Technologies Mastered', value: '15+' },
-            { label: 'CP Problems Solved', value: '1000+' },
           ].map((stat, index) => (
             <Card key={index} className="card-enhanced p-6 text-center">
               <div className="text-3xl font-bold text-gradient mb-2">{stat.value}</div>

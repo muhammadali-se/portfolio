@@ -21,74 +21,88 @@ const CompetitiveProgramming = () => {
   const platforms = [
     {
       name: 'CodeChef',
-      rating: 2156,
-      maxRating: 2156,
-      rank: '5-Star',
+      rating: 1400,
+      maxRating: 1400,
+      rank: '2-Star',
       color: 'bg-orange-500',
-      problems: 450,
-      contests: 28,
-      url: 'https://codechef.com/users/yourusername'
+      problems: 200,
+      contests: 35,
+      url: 'https://codechef.com/users/muhammadali'
     },
     {
       name: 'Codeforces',
-      rating: 1678,
-      maxRating: 1678,
-      rank: 'Expert',
-      color: 'bg-blue-500',
-      problems: 380,
-      contests: 45,
-      url: 'https://codeforces.com/profile/yourusername'
+      rating: 1200,
+      maxRating: 1200,
+      rank: 'Pupil',
+      color: 'bg-green-500',
+      problems: 180,
+      contests: 25,
+      url: 'https://codeforces.com/profile/muhammadali'
+    },
+    {
+      name: 'HackerRank',
+      rating: 1650,
+      maxRating: 1650,
+      rank: '5-Star',
+      color: 'bg-green-600',
+      problems: 250,
+      contests: 20,
+      url: 'https://hackerrank.com/muhammadali'
     },
     {
       name: 'LeetCode',
-      rating: 1890,
-      maxRating: 1890,
-      rank: 'Guardian',
+      rating: 1500,
+      maxRating: 1500,
+      rank: 'Knight',
       color: 'bg-yellow-500',
-      problems: 520,
-      contests: 32,
-      url: 'https://leetcode.com/yourusername'
-    },
-    {
-      name: 'AtCoder',
-      rating: 1245,
-      maxRating: 1245,
-      rank: 'Brown',
-      color: 'bg-amber-600',
-      problems: 180,
-      contests: 18,
-      url: 'https://atcoder.jp/users/yourusername'
+      problems: 120,
+      contests: 15,
+      url: 'https://leetcode.com/muhammadali'
     }
   ];
 
   const achievements = [
     {
-      title: 'ICPC Regionalist',
-      description: 'Qualified for ICPC Asia-Pacific Regional Finals',
-      year: '2023',
+      title: 'CodeChef 2-Star Programmer',
+      description: 'Achieved 2-Star (1400+) rating on CodeChef competitive programming platform',
+      year: '2024',
       icon: Trophy,
-      color: 'text-yellow-500'
-    },
-    {
-      title: 'CodeChef Cook-Off Winner',
-      description: 'First place in monthly coding contest',
-      year: '2023',
-      icon: Award,
       color: 'text-orange-500'
     },
     {
-      title: 'Google Kickstart Top 100',
-      description: 'Ranked in top 100 globally in Round A',
-      year: '2022',
-      icon: Star,
+      title: 'Codeforces Pupil Rank',
+      description: 'Attained Pupil rank (1200+) on Codeforces through consistent problem solving',
+      year: '2024',
+      icon: Award,
+      color: 'text-green-500'
+    },
+    {
+      title: '700+ Problems Solved',
+      description: 'Solved over 700 coding problems across multiple platforms',
+      year: '2024',
+      icon: Code2,
       color: 'text-blue-500'
     },
     {
-      title: 'Meta Hacker Cup Qualifier',
-      description: 'Qualified for Round 2 of Meta Hacker Cup',
-      year: '2022',
+      title: '100+ Contests Participated',
+      description: 'Participated in 100+ competitive programming contests',
+      year: '2024',
       icon: Target,
-      color: 'text-green-500'
+      color: 'text-purple-500'
+    },
+    {
+      title: 'HackerRank JavaScript Certified',
+      description: 'Earned JavaScript (Basic) Certification from HackerRank',
+      year: '2024',
+      icon: Star,
+      color: 'text-green-600'
+    },
+    {
+      title: 'CSE Fundamentals Certified',
+      description: 'Completed foundational DSA & Competitive Programming certification from Phitron',
+      year: '2023',
+      icon: BookOpen,
+      color: 'text-indigo-500'
     }
   ];
 
@@ -146,18 +160,18 @@ const CompetitiveProgramming = () => {
             Competitive Programming <span className="text-gradient">Arena</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Where algorithms come to life and complex problems meet elegant solutions. 
-            My journey through the world of competitive programming.
+            My journey through competitive programming, solving 700+ problems across multiple platforms 
+            and participating in 100+ contests to strengthen algorithmic thinking and problem-solving skills.
           </p>
         </div>
 
         {/* Overall Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
           {[
-            { label: 'Problems Solved', value: '1000+', icon: Code2 },
-            { label: 'Contests Participated', value: '120+', icon: Trophy },
-            { label: 'Max Rating', value: '2156', icon: TrendingUp },
-            { label: 'Years Active', value: '3+', icon: Calendar },
+            { label: 'Problems Solved', value: '700+', icon: Code2 },
+            { label: 'Contests Participated', value: '100+', icon: Trophy },
+            { label: 'Max Rating', value: '1400+', icon: TrendingUp },
+            { label: 'Active Since', value: '2024', icon: Calendar },
           ].map((stat, index) => {
             const IconComponent = stat.icon;
             return (

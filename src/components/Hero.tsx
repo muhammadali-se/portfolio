@@ -10,8 +10,9 @@ const Hero = () => {
   
   const roles = [
     "Software Engineer",
-    "Front-End Developer", 
-    "Competitive Programmer"
+    "Frontend Developer", 
+    "Competitive Programmer",
+    "MERN Stack Explorer"
   ];
   
   useEffect(() => {
@@ -89,14 +90,14 @@ const Hero = () => {
           
           {/* Description */}
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Passionate about creating beautiful, functional, and user-friendly applications. 
-            Specializing in Front-End Development and Competitive Programming with a focus on 
-            clean code and innovative solutions. Exploring MERN Stack Development.
+            Passionate self-taught programmer from Sylhet, Bangladesh with strong frontend development skills 
+            (React, JavaScript, HTML/CSS, Tailwind) and a solid foundation in problem-solving and algorithms. 
+            Completed 20+ projects, solved 700+ coding problems, and participated in 100+ contests.
           </p>
           
           {/* Tags */}
           <div className="flex flex-wrap justify-center gap-3 mb-10">
-            {['Frontend Developer', 'MERN Stack', 'Competitive Programmer', 'C++, JS & DSA'].map((tag, index) => (
+            {['React.js', 'JavaScript', 'C++', 'Problem Solving', 'Tailwind CSS', 'DSA'].map((tag, index) => (
               <span 
                 key={tag}
                 className="px-4 py-2 bg-primary-muted border border-primary/30 rounded-full text-primary text-sm font-medium animate-fade-in"
