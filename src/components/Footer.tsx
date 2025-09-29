@@ -112,7 +112,7 @@ const Footer = () => {
                   <Button
                     variant="outline_primary"
                     size="sm"
-                    onClick={() => window.open('/resume.pdf', '_blank')}
+                    onClick={() => window.open('../assests/Muhammadali_Ali_Resume.pdf', '_blank')}
                     className="w-full"
                   >
                     Download Resume
