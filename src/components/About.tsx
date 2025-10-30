@@ -18,7 +18,7 @@ const About = () => {
       year: '2024-Present',
       title: 'Competitive Programmer',
       company: 'Various Platforms',
-      description: 'Solved 700+ coding problems across Codeforces, CodeChef, HackerRank and others. Participated in 100+ contests.',
+      description: 'Solved 800+ coding problems across Codeforces, CodeChef, HackerRank and others. Participated in 100+ contests.',
       technologies: ['C++', 'Data Structures', 'Algorithms', 'Problem Solving']
     },
     {
@@ -29,7 +29,7 @@ const About = () => {
       technologies: ['React.js', 'JavaScript', 'Tailwind CSS', 'HTML5/CSS3']
     },
     {
-      year: '2023',
+      year: '2024-2025',
       title: 'CSE Fundamentals',
       company: 'Phitron',
       description: 'Completed foundational DSA & Competitive Programming certification. Built strong problem-solving foundation.',
@@ -48,7 +48,7 @@ const About = () => {
     {
       degree: 'CSE Fundamentals Certification',
       school: 'Phitron',
-      year: '2023',
+      year: '2024-2025',
       gpa: 'Completed ✅',
       relevant: ['Data Structures', 'Algorithms', 'Competitive Programming', 'C++']
     },
@@ -79,7 +79,7 @@ const About = () => {
       period: '2024 - Present',
       location: 'Remote',
       highlights: [
-        'Solved 700+ coding problems across Codeforces, CodeChef, HackerRank, and others',
+        'Solved 800+ coding problems across Codeforces, CodeChef, HackerRank, and others',
         'Participated in 100+ contests, strengthening problem-solving and algorithmic skills',
         'Achieved Pupil (1200+) rank on Codeforces and 2★ (1400+) rating on CodeChef'
       ]
@@ -98,8 +98,8 @@ const About = () => {
       year: '2024'
     },
     {
-      title: '700+ Problems Solved',
-      description: 'Solved 700+ coding problems across multiple competitive programming platforms',
+      title: '800+ Problems Solved',
+      description: 'Solved 800+ coding problems across multiple competitive programming platforms',
       year: '2024'
     },
     {
@@ -243,7 +243,7 @@ const About = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Self-taught programmer from Sylhet, Bangladesh with a passion for creating innovative solutions 
-            and pushing the boundaries of what's possible with code and competitive programming.
+            and pushing the boundaries of what&apos;s possible with code and competitive programming.
           </p>
         </div>
 
@@ -251,7 +251,7 @@ const About = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
           {[
             { label: 'Projects Completed', value: '20+' },
-            { label: 'Problems Solved', value: '700+' },
+            { label: 'Problems Solved', value: '800+' },
             { label: 'Contests Participated', value: '100+' },
             { label: 'Technologies Mastered', value: '15+' },
           ].map((stat, index) => (

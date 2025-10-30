@@ -77,8 +77,8 @@ const CompetitiveProgramming = () => {
       color: 'text-green-500'
     },
     {
-      title: '700+ Problems Solved',
-      description: 'Solved over 700 coding problems across multiple platforms',
+      title: '800+ Problems Solved',
+      description: 'Solved over 800 coding problems across multiple platforms',
       year: '2024',
       icon: Code2,
       color: 'text-blue-500'
@@ -100,7 +100,7 @@ const CompetitiveProgramming = () => {
     {
       title: 'CSE Fundamentals Certified',
       description: 'Completed foundational DSA & Competitive Programming certification from Phitron',
-      year: '2023',
+      year: '2024-2025',
       icon: BookOpen,
       color: 'text-indigo-500'
     }
@@ -172,7 +172,7 @@ const CompetitiveProgramming = () => {
             Competitive Programming <span className="text-gradient">Arena</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            My journey through competitive programming, solving 700+ problems across multiple platforms 
+            My journey through competitive programming, solving 800+ problems across multiple platforms 
             and participating in 100+ contests to strengthen algorithmic thinking and problem-solving skills.
           </p>
         </div>
@@ -180,7 +180,7 @@ const CompetitiveProgramming = () => {
         {/* Overall Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
           {[
-            { label: 'Problems Solved', value: '700+', icon: Code2 },
+            { label: 'Problems Solved', value: '800+', icon: Code2 },
             { label: 'Contests Participated', value: '100+', icon: Trophy },
             { label: 'Max Rating', value: '1400+', icon: TrendingUp },
             { label: 'Active Since', value: '2024', icon: Calendar },
@@ -345,7 +345,7 @@ const CompetitiveProgramming = () => {
             </h3>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
               Competitive programming has taught me that every complex problem can be broken down into 
-              smaller, manageable pieces. It's not just about finding a solution—it's about finding the 
+              smaller, manageable pieces. It&apos;s not just about finding a solution—it&apos;s about finding the 
               most efficient, elegant solution. This mindset translates directly into my professional 
               development work, where I approach challenges with algorithmic thinking and optimization in mind.
             </p>

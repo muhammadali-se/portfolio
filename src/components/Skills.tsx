@@ -168,8 +168,8 @@ const Skills = () => {
             <p className="text-muted-foreground text-lg leading-relaxed">
               As a passionate self-taught programmer, I believe in continuous learning and practical application. 
               My journey from solving coding problems to building real-world applications has taught me that 
-              every challenge is an opportunity to grow. With 700+ problems solved and 20+ projects completed, 
-              I'm always eager to take on new challenges and contribute to meaningful projects.
+              every challenge is an opportunity to grow. With 800+ problems solved and 20+ projects completed, 
+              I&apos;m always eager to take on new challenges and contribute to meaningful projects.
             </p>
             <div className="flex flex-wrap justify-center gap-3 mt-6">
               {['Quick Learner', 'Collaborative', 'Problem Solver', 'Self-Motivated'].map((trait) => (

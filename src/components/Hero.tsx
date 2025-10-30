@@ -92,7 +92,7 @@ const Hero = () => {
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
             Passionate self-taught programmer from Sylhet, Bangladesh with strong frontend development skills 
             (React, JavaScript, HTML/CSS, Tailwind) and a solid foundation in problem-solving and algorithms. 
-            Completed 20+ projects, solved 700+ coding problems, and participated in 100+ contests.
+            Completed 20+ projects, solved 800+ coding problems, and participated in 100+ contests.
           </p>
           
           {/* Tags */}
