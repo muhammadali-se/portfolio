@@ -27,7 +27,7 @@ const CompetitiveProgramming = () => {
       color: 'bg-orange-500',
       problems: 200,
       contests: 35,
-      url: 'https://codechef.com/users/muhammadali'
+      url: 'https://www.codechef.com/users/muhammadali_se'
     },
     {
       name: 'Codeforces',
@@ -37,7 +37,7 @@ const CompetitiveProgramming = () => {
       color: 'bg-green-500',
       problems: 180,
       contests: 25,
-      url: 'https://codeforces.com/profile/muhammadali'
+      url: 'https://codeforces.com/profile/muhammadali_se'
     },
     {
       name: 'HackerRank',
@@ -47,7 +47,7 @@ const CompetitiveProgramming = () => {
       color: 'bg-green-600',
       problems: 250,
       contests: 20,
-      url: 'https://hackerrank.com/muhammadali'
+      url: 'https://www.hackerrank.com/profile/muhammadali_se'
     },
     {
       name: 'LeetCode',
@@ -57,7 +57,7 @@ const CompetitiveProgramming = () => {
       color: 'bg-yellow-500',
       problems: 120,
       contests: 15,
-      url: 'https://leetcode.com/muhammadali'
+      url: 'https://leetcode.com/muhammadali_se'
     }
   ];
 

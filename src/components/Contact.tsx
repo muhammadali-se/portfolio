@@ -224,18 +224,10 @@ const Contact = () => {
                 <Button 
                   variant="outline" 
                   className="w-full justify-start"
-                  onClick={() => window.open('https://calendly.com/yourusername', '_blank')}
-                >
-                  <Calendar className="w-4 h-4" />
-                  Schedule a Call
-                </Button>
-                <Button 
-                  variant="outline" 
-                  className="w-full justify-start"
-                  onClick={() => window.open('https://github.com/yourusername', '_blank')}
+                  onClick={() => window.open('https://github.com/muhammadali-se', '_blank')}
                 >
                   <ExternalLink className="w-4 h-4" />
-                  View Portfolio
+                  View GitHub Profile
                 </Button>
               </div>
             </Card>
@@ -366,7 +358,7 @@ const Contact = () => {
               I'm currently available for new projects and collaborations. 
               Let's discuss how we can bring your vision to life with clean code and innovative solutions.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex justify-center">
               <Button
                 variant="hero"
                 size="lg"
@@ -374,14 +366,6 @@ const Contact = () => {
               >
                 <MessageCircle className="w-5 h-5" />
                 Start a Conversation
-              </Button>
-              <Button
-                variant="outline_primary"
-                size="lg"
-                onClick={() => window.open('https://calendly.com/yourusername', '_blank')}
-              >
-                <Calendar className="w-5 h-5" />
-                Schedule a Call
               </Button>
             </div>
           </Card>

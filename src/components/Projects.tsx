@@ -278,7 +278,7 @@ const Projects = () => {
             asChild
           >
             <a 
-              href="https://github.com/yourusername" 
+              href="https://github.com/muhammadali-se" 
               target="_blank" 
               rel="noopener noreferrer"
               className="group"
