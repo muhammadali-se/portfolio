@@ -67,7 +67,7 @@ const Skills = () => {
 
   const achievements = [
     { icon: Shield, title: 'CodeChef 2-Star', description: 'Max Rating: 1400+' },
-    { icon: Zap, title: 'Codeforces Pupil', description: 'Max Rating: 1200+' },
+    { icon: Zap, title: 'Codeforces Pupil', description: 'Max Rating: 1300+' },
     { icon: Cpu, title: 'HackerRank Certified', description: 'JavaScript (Basic)' },
     { icon: GitBranch, title: '20+ Projects', description: 'Personal + Freelance' },
   ];

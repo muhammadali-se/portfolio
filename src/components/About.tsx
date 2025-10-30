@@ -22,7 +22,7 @@ const About = () => {
       technologies: ['C++', 'Data Structures', 'Algorithms', 'Problem Solving']
     },
     {
-      year: '2023-Present',
+      year: '2023-2025',
       title: 'Frontend Developer',
       company: 'Freelance Projects',
       description: 'Delivered responsive websites for local and international clients. Translated Figma designs into pixel-perfect components.',
@@ -65,7 +65,7 @@ const About = () => {
     {
       position: 'Frontend Developer',
       company: 'Freelance Projects',
-      period: '2023 - Present',
+      period: '2023 - 2025',
       location: 'Remote',
       highlights: [
         'Delivered responsive websites for local and international clients',
@@ -81,7 +81,7 @@ const About = () => {
       highlights: [
         'Solved 800+ coding problems across Codeforces, CodeChef, HackerRank, and others',
         'Participated in 100+ contests, strengthening problem-solving and algorithmic skills',
-        'Achieved Pupil (1200+) rank on Codeforces and 2★ (1400+) rating on CodeChef'
+        'Achieved Pupil (1300+) rank on Codeforces and 2★ (1400+) rating on CodeChef'
       ]
     }
   ];
@@ -94,7 +94,7 @@ const About = () => {
     },
     {
       title: 'Codeforces Pupil Rank',
-      description: 'Attained Pupil rank (1200+) on Codeforces through consistent problem solving',
+      description: 'Attained Pupil rank (1300+) on Codeforces through consistent problem solving',
       year: '2024'
     },
     {
@@ -115,7 +115,7 @@ const About = () => {
     {
       title: '20+ Projects Completed',
       description: 'Successfully delivered 20+ personal and freelance projects with modern technologies',
-      year: '2023-Present'
+      year: '2023-2025'
     }
   ];
 

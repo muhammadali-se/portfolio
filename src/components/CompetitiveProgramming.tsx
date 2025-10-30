@@ -31,8 +31,8 @@ const CompetitiveProgramming = () => {
     },
     {
       name: 'Codeforces',
-      rating: 1200,
-      maxRating: 1200,
+      rating: 1300,
+      maxRating: 1300,
       rank: 'Pupil',
       color: 'bg-green-500',
       problems: 180,
@@ -71,7 +71,7 @@ const CompetitiveProgramming = () => {
     },
     {
       title: 'Codeforces Pupil Rank',
-      description: 'Attained Pupil rank (1200+) on Codeforces through consistent problem solving',
+      description: 'Attained Pupil rank (1300+) on Codeforces through consistent problem solving',
       year: '2024',
       icon: Award,
       color: 'text-green-500'
